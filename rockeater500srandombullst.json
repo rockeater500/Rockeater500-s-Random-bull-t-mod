@@ -1,0 +1,17 @@
+{
+  "id": "rockeater500srandombullst",
+  "name": "Rockeater500's Random bulls##t",
+  "author": [
+    "rockeater500"
+  ],
+  "description": "random jokers that i thought would be good",
+  "prefix": "rockeater500",
+  "main_file": "main.lua",
+  "version": "1.0.4",
+  "priority": 0,
+  "badge_colour": "061a75",
+  "badge_text_colour": "11a2d6",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-0827c)"
+  ]
+}
