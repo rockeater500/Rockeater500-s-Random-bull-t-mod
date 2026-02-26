@@ -1,0 +1,659 @@
+{
+  "metadata": {
+    "id": "rockeater500srandombullst",
+    "name": "Rockeater500's Random bulls##t",
+    "author": [
+      "rockeater500"
+    ],
+    "description": "random jokers that i thought would be good",
+    "prefix": "rockeater500",
+    "main_file": "main.lua",
+    "version": "1.1.0",
+    "priority": 0,
+    "badge_colour": "061a75",
+    "badge_text_colour": "11a2d6",
+    "display_name": "Rockeater500's Random bulls##t",
+    "dependencies": [
+      "Steamodded (>=1.0.0~BETA-0827c)"
+    ],
+    "conflicts": [],
+    "provides": [],
+    "gameImage": "/images/balatro.png",
+    "iconImage": "data:image/png;base64,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",
+    "hasUserUploadedIcon": true,
+    "hasUserUploadedGameIcon": false
+  },
+  "jokers": [
+    {
+      "objectKey": "addition",
+      "id": "42783941-bf34-43c5-83f2-5dbf92ec1872",
+      "name": "Addition",
+      "description": "Retrigger the jokers to this cards {C:blue}Left{}[s] and {C:red}Right{}.",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "rarity": "math",
+      "cost": 8,
+      "blueprint_compat": true,
+      "eternal_compat": true,
+      "unlocked": true,
+      "discovered": true,
+      "appears_in_shop": true,
+      "unlockProperties": [],
+      "unlockOperator": "",
+      "unlockCount": 1,
+      "unlockDescription": "Unlocked by default.",
+      "rules": [
+        {
+          "id": "32253530-3624-4b25-af96-590dfe933cfc",
+          "trigger": "passive",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "b67e136d-aa33-4ad3-bc95-6fabca7b71c5",
+              "type": "copy_joker_ability",
+              "params": {
+                "selection_method": {
+                  "value": "left",
+                  "valueType": "text"
+                },
+                "specific_index": {
+                  "value": 1,
+                  "valueType": "number"
+                }
+              },
+              "customMessage": "Left joker retriggered!"
+            },
+            {
+              "id": "a6d68a60-7c17-47ec-a9e6-4bd6cdbd9255",
+              "type": "copy_joker_ability",
+              "params": {
+                "selection_method": {
+                  "value": "right",
+                  "valueType": "unknown"
+                },
+                "specific_index": {
+                  "value": 1,
+                  "valueType": "number"
+                }
+              },
+              "customMessage": "Right joker retriggered!"
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 528,
+            "y": 86.5
+          }
+        }
+      ],
+      "userVariables": [],
+      "placeholderCreditIndex": 24,
+      "hasUserUploadedImage": true,
+      "cardAppearance": {
+        "buf": true,
+        "jud": true,
+        "rif": true,
+        "rta": true,
+        "sou": true,
+        "uta": true,
+        "wra": true
+      },
+      "appearFlags": "",
+      "ignoreSlotLimit": false,
+      "scale_h": 100,
+      "scale_w": 100,
+      "pools": [
+        "rockeater500_jokers"
+      ],
+      "orderValue": 1,
+      "objectType": "joker",
+      "info_queues": [],
+      "card_dependencies": []
+    },
+    {
+      "objectType": "joker",
+      "id": "fad2a420-b07e-496d-878b-5bc2fa114e2a",
+      "name": "Division",
+      "description": "Gives {C:attention}+1{} joker slot for every King played.[s]Self destructs in 5 rounds",
+      "unlockDescription": "Unlocked by default.",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "rarity": "legendary_math",
+      "cost": 10,
+      "blueprint_compat": true,
+      "eternal_compat": true,
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "29b1df07-e105-40ff-9049-a8def7387874",
+          "trigger": "hand_played",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [],
+          "randomGroups": [],
+          "loops": [
+            {
+              "id": "36af410d-0836-4138-a08f-7deae19c5b71",
+              "repetitions": {
+                "value": "GAMEVAR:kings_in_hand|1|0",
+                "valueType": "game_var"
+              },
+              "effects": [
+                {
+                  "id": "159d9fe6-2a07-45cd-a5c3-3d74de43f88e",
+                  "type": "edit_hand_size",
+                  "params": {
+                    "operation": {
+                      "value": "add"
+                    },
+                    "value": {
+                      "value": 1,
+                      "valueType": "number"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 750.5,
+            "y": 199
+          }
+        },
+        {
+          "id": "8ed55d7c-f447-4ec3-b053-850e8cb36551",
+          "trigger": "blind_selected",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "6954ed46-f3cd-44dd-a1b0-e4c87f15532f",
+              "type": "modify_internal_variable",
+              "params": {
+                "variable_name": {
+                  "value": "destructiontimer",
+                  "label": "destructiontimer",
+                  "valueType": "user_var"
+                },
+                "operation": {
+                  "value": "increment",
+                  "label": "Increment by value",
+                  "valueType": "text"
+                },
+                "index_method": {},
+                "joker_key": {
+                  "value": "j_joker"
+                },
+                "joker_variable": {},
+                "value": {
+                  "value": 1,
+                  "valueType": "number"
+                }
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 1158.5,
+            "y": 177
+          }
+        },
+        {
+          "id": "f1b7dda6-53cf-400b-9087-658ed2dde1a6",
+          "trigger": "shop_entered",
+          "blueprintCompatible": true,
+          "conditionGroups": [
+            {
+              "id": "4bfde9a6-f949-4136-a2d1-827a8d17b4a4",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "e894d595-5d7d-4ba1-9754-8f455b2a10ea",
+                  "type": "internal_variable",
+                  "negate": false,
+                  "params": {
+                    "variable_name": {
+                      "value": "destructiontimer",
+                      "label": "destructiontimer",
+                      "valueType": "user_var"
+                    },
+                    "operator": {
+                      "value": "greater_equals",
+                      "label": "greater than or equal to",
+                      "valueType": "text"
+                    },
+                    "value": {
+                      "value": 5,
+                      "valueType": "number"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "aec06d3b-bc79-49bd-9189-4e1b1475cdd3",
+              "type": "destroy_joker",
+              "params": {
+                "selection_method": {
+                  "value": "self",
+                  "label": "This Joker",
+                  "valueType": "text",
+                  "exempt": [
+                    "consumable",
+                    "card"
+                  ]
+                },
+                "joker_key": {
+                  "value": "j_joker"
+                },
+                "position": {
+                  "value": "first"
+                },
+                "specific_index": {
+                  "value": 1,
+                  "valueType": "number"
+                },
+                "bypass_eternal": {
+                  "value": "no",
+                  "label": "No",
+                  "valueType": "text"
+                },
+                "sell_value_multiplier": {
+                  "value": 0,
+                  "valueType": "number"
+                },
+                "variable_name": {},
+                "animation": {
+                  "value": "shatter",
+                  "label": "Shatter",
+                  "valueType": "text"
+                }
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 1616.5,
+            "y": 209
+          }
+        }
+      ],
+      "orderValue": 4,
+      "placeholderCreditIndex": 54,
+      "appears_in_shop": true,
+      "cardAppearance": {
+        "buf": true,
+        "jud": true,
+        "rif": true,
+        "rta": true,
+        "sou": true,
+        "uta": true,
+        "wra": true
+      },
+      "appearFlags": "",
+      "pools": [
+        "rockeater500_jokers"
+      ],
+      "objectKey": "division",
+      "hasUserUploadedImage": true,
+      "userVariables": [
+        {
+          "id": "28b1cc33-9933-4139-bb35-993be968d5b6",
+          "name": "destructiontimer",
+          "type": "number",
+          "initialValue": 0
+        }
+      ]
+    },
+    {
+      "objectKey": "multiplication",
+      "id": "15ee7921-c90e-4442-8c46-3f3e8c438624",
+      "name": "Multiplication",
+      "description": "{X:mult,C:white}X1{} Mult, [s]increases by 0.1 for every {C:gold}${} in[s]combined sell value of all jokers",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "rarity": "rare_math",
+      "cost": 9,
+      "blueprint_compat": true,
+      "eternal_compat": true,
+      "unlocked": true,
+      "discovered": true,
+      "appears_in_shop": true,
+      "unlockProperties": [],
+      "unlockOperator": "",
+      "unlockCount": 1,
+      "unlockDescription": "Unlocked by default.",
+      "rules": [
+        {
+          "id": "44526bce-9929-4b7b-af44-0aac79714b5c",
+          "trigger": "hand_played",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "4d5b5188-e4c5-456b-8378-fcbb3001b9ce",
+              "type": "apply_x_mult",
+              "params": {
+                "value": {
+                  "value": "GAMEVAR:all_jokers_sell_value|0.1|1",
+                  "valueType": "game_var"
+                }
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 750.5,
+            "y": 199
+          }
+        }
+      ],
+      "userVariables": [
+        {
+          "id": "a6de3237-fb68-4294-8a2d-a12c1338cf1d",
+          "name": "filledjokerslots",
+          "type": "number",
+          "initialValue": 0
+        }
+      ],
+      "placeholderCreditIndex": 20,
+      "hasUserUploadedImage": true,
+      "cardAppearance": {
+        "buf": true,
+        "jud": true,
+        "rif": true,
+        "rta": true,
+        "sou": true,
+        "uta": true,
+        "wra": true
+      },
+      "appearFlags": "",
+      "ignoreSlotLimit": false,
+      "scale_h": 100,
+      "scale_w": 100,
+      "pools": [
+        "rockeater500_jokers"
+      ],
+      "orderValue": 3,
+      "objectType": "joker",
+      "info_queues": [],
+      "card_dependencies": []
+    },
+    {
+      "objectKey": "subtraction",
+      "id": "ff52a474-0ab3-4fee-b5a4-d412c53da69d",
+      "name": "Subtraction",
+      "description": "When this joker is sold,[s] {C:dark_edition}Destroys{} the joker to it's right[s] spawns a {C:dark_edition}Negativity{} and an {C:dark_edition}Ectoplasm{}, [s]Passively {X:mult,C:white}+2{} Mult.",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "rarity": "math",
+      "cost": 8,
+      "blueprint_compat": true,
+      "eternal_compat": true,
+      "unlocked": true,
+      "discovered": true,
+      "appears_in_shop": true,
+      "unlockProperties": [],
+      "unlockOperator": "",
+      "unlockCount": 1,
+      "unlockDescription": "Unlocked by default.",
+      "rules": [
+        {
+          "id": "2fe3fde0-77ef-46c6-b0f9-5ea6b08cba20",
+          "trigger": "selling_self",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "a5a6c8c6-2d0c-47d1-9cdf-a299c9123453",
+              "type": "destroy_joker",
+              "params": {
+                "selection_method": {
+                  "value": "position",
+                  "valueType": "text"
+                },
+                "joker_key": {
+                  "value": "j_joker",
+                  "valueType": "unknown"
+                },
+                "position": {
+                  "value": "right",
+                  "valueType": "text"
+                },
+                "specific_index": {
+                  "value": 1,
+                  "valueType": "number"
+                },
+                "bypass_eternal": {
+                  "value": "yes",
+                  "valueType": "text"
+                },
+                "sell_value_multiplier": {
+                  "value": 0,
+                  "valueType": "number"
+                },
+                "variable_name": {
+                  "valueType": "unknown"
+                },
+                "animation": {
+                  "value": "start_dissolve",
+                  "valueType": "text"
+                }
+              }
+            },
+            {
+              "id": "82f366cb-8daa-4a79-8654-a4195dc4a2c5",
+              "type": "create_consumable",
+              "params": {
+                "set": {
+                  "value": "Spectral",
+                  "valueType": "unknown"
+                },
+                "variable": {
+                  "valueType": "unknown"
+                },
+                "specific_card": {
+                  "value": "c_ectoplasm",
+                  "valueType": "unknown"
+                },
+                "soulable": {
+                  "value": "n",
+                  "valueType": "unknown"
+                },
+                "is_negative": {
+                  "value": "y",
+                  "valueType": "text"
+                },
+                "count": {
+                  "value": 1,
+                  "valueType": "number"
+                },
+                "ignore_slots": {
+                  "value": "n",
+                  "valueType": "unknown"
+                }
+              }
+            },
+            {
+              "id": "3260b132-e96a-4d9d-986b-cc450374b1e4",
+              "type": "create_consumable",
+              "params": {
+                "set": {
+                  "value": "Spectral",
+                  "valueType": "unknown"
+                },
+                "variable": {
+                  "valueType": "unknown"
+                },
+                "specific_card": {
+                  "value": "c_rockeater500_negativity",
+                  "valueType": "unknown"
+                },
+                "soulable": {
+                  "value": "n",
+                  "valueType": "unknown"
+                },
+                "is_negative": {
+                  "value": "n",
+                  "valueType": "unknown"
+                },
+                "count": {
+                  "value": 1,
+                  "valueType": "number"
+                },
+                "ignore_slots": {
+                  "value": "n",
+                  "valueType": "unknown"
+                }
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 432,
+            "y": 130.5
+          }
+        },
+        {
+          "id": "ac3335c2-2cad-40a0-9e5c-87f17c075a5d",
+          "trigger": "hand_played",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "902e59f3-0e06-49be-a6ea-0ad7f2a59745",
+              "type": "add_mult",
+              "params": {
+                "value": {
+                  "value": 2,
+                  "valueType": "number"
+                }
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 895,
+            "y": 107.5
+          }
+        }
+      ],
+      "userVariables": [],
+      "placeholderCreditIndex": 16,
+      "hasUserUploadedImage": true,
+      "cardAppearance": {
+        "buf": true,
+        "jud": true,
+        "rif": true,
+        "rta": true,
+        "sou": true,
+        "uta": true,
+        "wra": true
+      },
+      "appearFlags": "",
+      "ignoreSlotLimit": false,
+      "scale_h": 100,
+      "scale_w": 100,
+      "pools": [
+        "rockeater500_jokers"
+      ],
+      "orderValue": 2,
+      "objectType": "joker",
+      "info_queues": [],
+      "card_dependencies": []
+    }
+  ],
+  "sounds": [],
+  "consumables": [
+    {
+      "objectKey": "negativity",
+      "id": "8a540296-37ed-4700-a559-beaf028713ce",
+      "name": "Negativity",
+      "description": "Gives {C:attention}+1{} Hand size",
+      "imagePreview": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAAC+CAYAAADjhzelAAALWUlEQVR4AeycP6omxxXF2wYHswWvwYEzKRVMJHBglBlvYJjA4HU8DA4GbcA4Ew4MxsGAUilToDUI7WACgf78XnPeiHpV03/qVHdV9zU+r+rW7Xvr1rnn6/r0IfTbKf4XDOxgIISzg7QImabdwvnHv/77U2B8DvZ+CHYLZ++GEXcNBjYLR2+ZTz7+aAqMz4H6uVXOm4WzdYN4/poMrBaOlKm3jOj48quvp8B4HKh/6qf6q/WlcbVwlhKt9cdz12BgUThSopSpY+st8+qzl1NgPA7UP/VT/VW/tV4aF4VTCoz1ezOwWThSqt4you/zL95Ogf45UL/UP/VT62vHzcJZmzieuzYD1cLRW0Y0vXr54xTojwP1J+2X1reO1cLZumE8fw0GbMLRW6Y7WqKgRwbc/bEJ57G6+HMbBk4Xzn++/XQCexknFkT8Xgb2xZ0unH1lR9TZDJwunD//4X8T2EsEsSDi9zKwL+504ewrO6LOZiCEc3YHBt0/hGNv3D0ShnDu0Wf7KUM4dkrvkbC5cPiNBZToxAfCn2cAbkDeOz3+BlbjL+VdWm8unKUCwj8mA82Fw28soEQPPhD+PANwA/Le6fE3sBp/Ke/SenPhLBUQ/jEZOFw43MdgL13Egoh/YuCUyeHCOeWUsamdgcOFw30M9p6EWBDxexnwxB0uHE/ZkeVsBpoLh+8joHRQfCD8eQbgBuS98TtOiZdY75SB5m8cvo+A0vnxgfDnGYAbkPfG7zglXmK9QwYoyf7G4T4GJM8BH8j5WMMHmOeAD+R8rOEDzHPAB3I+1vAB5jngAzkfa/gA8xzwgZyPNXyAeQ74QM7HGj7AvCXswmlZbOTuhwG7cLiPQemI+ED48wzADch7z/tOk9ZjF066QdjXZMAuHO5XILqYg7BnBuACzNbz32HwgVZ+5a0d7cKpLSjix2DALhzuZ6DjMwdhzwzABZit599Z8IFWfuWtHe3C+VBB4bsOA3bhcD+DEkX4QPjzDMANyHuffydKnyMWpOtu2y4cd4GRr08G7MLhfgal4+ID4c8zADcg733+nSh9jliQrrttu3DcBUa+PhmwC4f7Fei4zEHvNjXWoPfzqT7XaBeOq7DI0zcDduFwvwIdmzk4xdamv4x6m/wyffx/aj8uVvxJ86W2UsMFOMvWvrWjXTi1BUX8GAzYhZN+0s6y033Pbofq0ah6jra1b+1oF05tQRE/BgN24XB/Ax2fOWhlK2/6ydV6r2OpXrgCqps5cNnKUzvahVNbUMSPwYBdOOknqZWd5h2D7nKVOo9GPem2lbd2tAuntqCx4+9TvV043MdAFDIH+uQwB6l/yVa8nrv6qPPCFUhtnR8fWLIVr+dqR7twaguK+DEYsAsnVbZsPhVAtujZaivuLqP4gTsgW+dfaxMLFFc72oVTW1DEj8GAXTioGuj4zMFWO/0kKf6uo/iASyAemIO1tp6rHe3CqS0o4sdgwC4cfTJ0/FpbeWKcGUj4fPbfOV7yz1nq/9qFU19SZBiBAZtwpHTuW6DDMwdr/YqLcR0DcAuO5tcmnHXHjKeuwoBNOKgeSPkiSDY+IDv1y45xHQPiUSPcAtnKIhsf0HrtaBNObSERPxYDduGgalBSOj4g/1h09V8t3ALxyxy4K7cLx11g5OuLAVVjF06qdNnaUDafAqD1GD0MpPzK9mR/n8UunPepY3ZlBmzCkbJ5iwCRxhykftl6LsY6BsQnXANlYw7k13rtaBNObSERPxYDNuGgapAqWzY+IHssmsapNuVXNtwD10lswnEVFHnGYMAuHFQNWil9DFrPr7I1/3bhlCiL9WsxYBdOqnTZ16Kt/9Pw1get+LcLp39Ko0IHAzbhSNmoHJRsR9GRY5mB1vzbhLN8lHjiSgzYhMNbBpSUjg9cibyezwLXIO2Hq2abcFwFRZ4xGLAJJ1V2yW5Ny19e/m56RGdj63On+VvzbxNOWnjY12bAJhzuU9Ba6aO247tv/jmBo+tP++Ha3yYcV0GRZwwGbMJJlZ3aY9BxvSq5BYD64TqhTTiugiLPGAzYhIOqgZTNHMgeg47rVSn+6QVwndAmHFdB4+a5V+U24aTKTu2jaP332x8m8PDwMPWEo86f7sNbBqgfqX+vbRPO3gIibkwG7MKRslE5kH00Pb//49+mHnE0D634twvnaGJiv3MYsAuHtwyQ0pmDc44Xu8I9cDNhF467wMjXJwM24aBqoDeNjpvaWo+xmoFVCcQ/vQGrglY8ZBPOir3ikQsxYBNOSdmoHFyIs6GOAvdA/XEVbxOOq6DIMwYDduFI2agcyB6DjutUCfegFf924VyH+jjJhxiwCweVAymdOfhQEeHzM9Caf7tw/BRExl4Y+HUdNuHwVgFSujaRjQ9oPcZjGGjFv004x9AQu/TCgE04JWXzlgHy93Lwu9QB98DNv004d2lEnHNmwC6cVNmpPW8bf49ioBX/duEcRUjscy4DduFwnwIdizko2VqP0cMAXANlYw5ku0a7cHKFxdr1GLALJ71TZaN6IPt6VPZxopRf2XAPXFXaheMqLPL0zYBdOKga6NjMQSvla58YZwbgGszWNDEH4l/rtaNdOLUFRfwYDNiFkyp7yR6DpnGqPIpvu3DGoTgqrWHALhzuU6CimIO1tp6rGm8UDLdAR2YOSrbWa0e7cGoLivgxGLALZ+mOXfKPQVs/VS7xmfpdlduF4yos8vTNgF043K9Ax2YO9tqKi3FmAC7BbL3/nWatredqR7twaguK+DEYsAsnvVNr7TFoPK7KXvi0C+c4Cnva6X612IXD/QtKVOIDe/2luLuswx0onRcfKPld63bhuAqLPH0zYBdOegenx6/1p/nuZvfCn104d2vkXc9rFw73KxChzEErW3mvMsIV0HmYA5etPLWjXTi1BUX8GAzYhZPewa3tMWheX+VKvp4Sbn3+KbByYhdOZT0RPggDduFwH4PS+fGBs/ylfY9a5+ygtB8+0Mpfyrt13S6crQXE82MyYBdOeuemtJztT+s52r7K+e3COboRsd85DDQXDvc1KB0PHwh/ngG4AXnv838fJ32OWJCu19rNhVNbYMT3wUBaRXPhnH2nx/6fTnCQNr7Wbi6c2gIjvk8GDhcO9y3YSwexIOL3MuCJO1w4nrIjy9kMHC4c7luw9+DEgojfy4An7nDheMqOLGcz0Fw4fB8BpYPiA+HPMwA3IO+98O84pQPH+tgMNH/j8H0ElGjCB8KfZwBuQN47Pf5GU+Mv5V1aby6cpQLCPyYDIZwx+3Z61SGc01swZgEhnDH7dnrVIZzTWzBmAacLh98owF76iAVP8RsnxIKNYU+PEwueFjZOiAUbw54eJxY8LRw0OV04B50ztjEzcLpw+A0C7D0XsSDi9zKwL+504ewrO6LOZsAmnO+///8Ezj5Q7J9ngN6AvHf7qk0427eOiJEZqBbOq89eTkAkoOrA/PbtiQf1h14B2XvHauHs3fg6cfc8iU04qDgwv3175sElc5twXAVFnjEYCOGM0afuqgzhdNeSMQoK4YzRp+6qDOF015IxCrqdcF68eDG1wIHt7mKr2wmnC9YvUEQIx9TEN2/eTMCUrvs0IZzuW9RngbcTzrt37ybw8PAwOdFne9tVdTvhtKPyXplvK5zXr19PLXAX+dxWOHdpsOOcuRybhfPJxx9N4PMv3k4glzTW+meA3gF6CbZWvFk4WzeI56/JwKJw/v7XP/0GfPnV1xMQDagUoNrA/PYdiQd6B9RPegvoNdB6aVwUTikw1u/NwGrhoEKAKoFoQ7WB+XvfSDyof/QS0Fug9aVxtXCWEoX/XgxsFg6qBKg0MH/vG5kHegm2yn6zcLZsEM9el4HdwkGlgfmfOEfmYa+0dwtn74YRdw0GfgYAAP//w+4U8wAAAAZJREFUAwCusPB8k4cn4gAAAABJRU5ErkJggg==",
+      "overlayImagePreview": "",
+      "set": "Spectral",
+      "cost": 3,
+      "unlocked": true,
+      "discovered": true,
+      "hidden": false,
+      "can_repeat_soul": false,
+      "rules": [
+        {
+          "id": "8ce05e03-b965-4515-bf49-3b576972c8dd",
+          "trigger": "card_used",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "57525779-a59d-4223-8e0c-9f1c8dee9fa2",
+              "type": "edit_hand_size",
+              "params": {
+                "operation": {
+                  "value": "add",
+                  "valueType": "unknown"
+                },
+                "value": {
+                  "value": 1,
+                  "valueType": "number"
+                }
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 750.5,
+            "y": 199
+          }
+        }
+      ],
+      "placeholderCreditIndex": 20,
+      "objectType": "consumable",
+      "hasUserUploadedImage": true,
+      "orderValue": 1
+    }
+  ],
+  "customRarities": [
+    {
+      "id": "e10e4f55-605e-4f8b-9209-d850d5704a1d",
+      "key": "math",
+      "name": "Math",
+      "badge_colour": "829bb8",
+      "default_weight": 0.035
+    },
+    {
+      "id": "e796a203-82af-47a4-a1b3-7f16f44ef95e",
+      "key": "rare_math",
+      "name": "Rare Math",
+      "badge_colour": "0558b6",
+      "default_weight": 0.02
+    },
+    {
+      "id": "427af0ff-9ebf-464e-b474-c07eb5925fb6",
+      "key": "legendary_math",
+      "name": "Legendary math",
+      "badge_colour": "59b2aa",
+      "default_weight": 0.01
+    }
+  ],
+  "consumableSets": [],
+  "boosters": [],
+  "enhancements": [],
+  "seals": [],
+  "editions": [],
+  "vouchers": [],
+  "decks": [],
+  "version": "1.0.0",
+  "exportedAt": "2026-02-26T11:36:28.952Z"
+}
